@@ -1,0 +1,116 @@
+TASK 14:
+Creating and formatting Table and Mail Merge.
+ 
+Creating a Time table of current Semester with Morning Break and Morning Labs. Have to cover merge, split, Border Styles, Table Properties, add, delete, ..
+
+Inserting a new table
+Go to Menu bar and Select the Table Tab, from this list select the Insert Table
+Heading — Selecting this enables a heading to be used in the table and enables further options for the heading. Defines the number of rows in the table to be used as headings. The default Table Heading paragraph style is applied to the heading rows. You can edit the LibreOffice-predefined Table Heading paragraph style in the Styles and Formatting window to change these default settings (centered, bold, and italic text). When splitting a table into two tables, the Heading rows can be copied into the second table.
+Repeat Heading Rows on new pages — Selection enables the heading rows of the table to be repeated at the top of subsequent pages if the table spans more than one page.
+Don’t split table over pages — Prevents the table from spanning more than one page. This can be useful if the table starts near the end of a page, and would look better if it were completely located on the following page. If the table becomes longer than would fit on one page, you will need to either deselect this option or manually split the table.
+Border — Surrounds each cell of the table with a border. This border can be modified or deleted later. The AutoFormat button opens a dialog from which you can select one of the many predefined table layouts. See “Automatic formatting of tables” on page 286 for more information. After making your choices, click OK. Writer creates a table as wide as the text area (from the left page margin to the right page margin), with all columns the same width and all rows the same height. You can then adjust the columns and rows later to suit your needs.
+	 
+
+Inserting rows and columns
+To insert any number of rows or columns:
+1)	Place the cursor in the row or column where you want to add new rows or columns and right-click.
+2)	In the context menu, choose Row > Insert or Column > Insert. This will display a dialog where you can select the number of rows or columns to add, and whether they appear before or after the selected one.
+3)	Set Amount to the number of rows or columns to insert, and Position to Before or
+After.
+4)	Click OK to close the dialog.
+
+The Table > Insert > Row and Table > Insert > Column choices from the Menu bar provide the same options.
+
+Merging and splitting cells
+To merge a cell or group of cells into one cell:
+1)	Select the cells to merge.
+2)	Right-click and choose Cell > Merge in the context menu, or choose Table
+> Merge Cells from the Menu bar. Any content of the cells appears in the
+merged cell. To merge a single cell into an adjacent cell, you can also place the cursor in the cell (origin), press Alt+Delete, release, then hold down Ctrl, and then press the left or the right arrow key. Any contents in the origin cell are lost.
+To split a cell into multiple cells:
+1)	Position the cursor inside the cell.
+2)	Right-click and choose Cell > Split in the context menu, or choose Table > Split Cells from the Menu bar.
+3)	Select how to split the cell. A cell can be split either horizontally (create more rows) or vertically (create more columns), and you can specify the total number of cells to create. To split a single cell, you can also place the cursor in an adjacent cell, press Alt+Ins, release, then hold down Ctrl, and then press the left or the right arrow key to split the cell to the left/right. It is generally a good rule to merge and split cells after completing other layout formatting. This is because some operations such as deleting a column or a row may produce a result difficult to predict when applied to a table with merged or split cells.
+Specifying table borders
+On the Table Format dialog, select the Borders tab. Here you can set borders for a whole table or groups of cells within a table. In addition, a shadow can be set for the whole table.   Borders have three components: where they go, what they look like, and how much space is left around them.
+Line arrangement specifies where the borders go. If a group of cells  is selected, the border will be applied only to those cells. You can specify individually the style of the border for the outside edges of the selected cells as well as for the the cell divisions.
+ 
+Writer provides five default arrangements but you can just as easily click on the line you want to customize in the User-defined area to get exactly what you want. When multiple cells are selected, the User-defined area allows you to select the edges of the selection as well as the cell dividers. By clicking at the intersection of the lines, you can modify multiple borders simultaneously. For example, in the following Figure the right edge and horizontal separators are modified with a single operation.
+
+
+Line specifies what the border looks like: the style, width, and color. There are a number of different styles and colors to choose from. Style, Width, and Color selections apply to those borders highlighted by a pair of black arrows in the User- defined map on the left-hand side of the dialog.
+Spacing to contents specifies how much space to  leave between the border and the cell contents. Spaces can be specified to the left, right, above, and below. Check Synchronize to have the same spacing for all four sides. This spacing is like a padding and it is not factored in when calculating the text measurements.
+Shadow style properties always apply to the whole table. A shadow has three components: where it is, how far from the table it is cast, and what color it is.
+If Merge adjacent line styles is checked, two cells sharing a common border will have their borders merged, rather than being side by side.
+ 
+MAIL MERGE
+AIM:SEND A BIRTHDAY INVITATION LETTER TO ALL YOUR FRIENDS (10 ppl).
+What is mail merge?
+LibreOffice Writer provides very useful features to create and print:
+•	Multiple copies of a document to send to a list of different recipients (form letters)
+•	Mailing labels
+•	Envelopes
+All these facilities, though different in application, are based around the concept of a registered data source, from which is derived the variable address information necessary to their function.
+This chapter describes the entire process. The steps include:
+1)	How to create and register a data source.
+2)	How to create and print form letters, mailing labels, and envelopes.
+3)	Optionally, how to save the output in an editable file instead of printing it directly.
+Best Procedure:
+Step1: Create Letter in a required format neatly.
+Step2: Create Spread sheet / Use existing Sheet (Because mostly everyone Maintaining their students or employee details in Spreadsheets)
+Step3: Create DATABASE using (STEP2) your required Spreadsheet.
+Step4: Go to VIEW from MENUBAR CLICK ON Data Sources and select your DATABACE, from that open list and Drag the Fields where you required in your Letter/Document.
+Step5: Go to Tools from MENUBAR and then select the MAILMERGE WIZZARD and Just follow the 8 steps. (In this process we not need to work with the last 8 Steps)
+NOTE: In case you’re DATABASE is not available in the VIEWData Sources then you Have to Go to EDIT EDIT DATABASE then ADD your DATABASE using path.
+STEP1:
+Create a Letter in a proper format
+
+ 
+STEP2:
+Spread sheet with Fields and Field values From MENUBAR go to FileNewSpreadsheet
+ 
+Immediately save and close the spreadsheet.
+STEP3:
+Create DATABASE using above Spreadsheet From MENUBAR go to FileNewDatabase
+•	Selecting
+ 
+•	Using - Available document type (spreadsheet)
+
+•	Location of the Source document
+Click on browse and add path
+
+ 
+•	Save and Naming the DB (remove the other tick marks)
+
+STEP4:
+Connect GENERATED(above one) DATABASE with LETTER/DOCUMENT
+1.	From MENUBAR go to ViewData Sources
+ 
+2.	Find your DATABASE from the list and open it using ‘+’ Sign and click on Tables you can see your data details list.
+
+
+
+3.	Drag the FIELDS using mouse ,Where you required in the document/letter ( Not Field values)
+
+
+After this save your document to get address list directly in the Mail Merge wizard.
+ 
+STEP5:
+Main MAILMERGE WIZARD
+From MENUBAR go to Tools MAILMERGE WIZARD And follow the 8 steps
+ 
+
+Generally when we don’t have concept of DATABACE in this Libre Office we are following through this Mail Merge Wizard.
+1.	We developed letter already in the STEP1. So just select current document.
+
+ 
+2.	Our aim is just prepare document and print, So just select Letter not mail.
+3.	we have our own DATABASE with headings and values so not need to select Default List for HEADINGS. In case current address list is not showing directly click on select and brows your DATABASE.
+ 
+4.	Make sure don’t add any tick mark
+ 
+•	we went through the our own layout and
+•	already we edited our document at beginning.
+•	just select the whole words checkbox.
+ 
+•	Save your merged documents in a single document, to take print easily and save your FINAL document then click FINISH.

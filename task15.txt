@@ -1,0 +1,77 @@
+SPREAD SHEET & PRESENTATION: TASK 15:
+Working with Student Marks Data and generate graphs.
+HOW TO USE EXCEL: BASICS
+Grid lines: add, del, merge, hide, height, width, color, background, Cell Address and Cell Range, Use of ‘$’ Symbol in formulas.
+Mouse Actions: select, drag, move, Auto fill(number series, color, lines, Formulas) … Sheets: add, del, move/copy, Rename …
+Number format: Date, Currency, Boolean, Decimal …
+Wrap text, Text direction, Freeze, Filter, Duplicate, Custom Sort, Conditional Format.
+FEW FORMULAS/ FUNCTIONS:
+SUM, AVERAGE & MEAN AVERAGE, STANDARD DEVIATION, IF & NESTEDIF/IFAND, COUNT & COUNTIF, RANK, MAX&MIN, MAX2 (LEVEL) …
+Creating formulas
+You can enter formulas in two ways, either by using the Function Wizard, or by typing directly into the cell or into the input line. A formula must begin with an = symbol, so when typing in directly, you need to start a formula with one of the following symbols: =, + or –. Calc automatically adds the = symbol for the formula, when starting with the + or _ character.
+Each cell on the worksheet can be used as a data holder or a place for data calculations. Entering data is accomplished simply by typing in the cell and moving to the next cell or pressing Enter. With formulas, the equals sign indicates that the cell will be used for a calculation. A mathematical calculation like 15 + 46 can be accomplished as shown below.
+To Select and make entire Work sheet without grid lines(color)- using mouse select in between the Rows and Columns at top left ( in between A-1) and color of line are white.
+ 
+And after in the white screen worksheet create table, with mouse select area.
+Entire sheets are default with rows and columns, so we not need to create TABLE separately, just highlight the selected area grid lines with different color remaining grid lines are white color.
+ 
+
+
+
+ 
+
+
+To use all the formulas/functions we need to click on FUNCTION WIZARD (fx). Recently used functions few are available in the NAME BOX.
+ 
+
+ 
+
+FUNCTIONS SYNTAX AND EXAMPLS: following below screen cell ADDRESES
+
+1)	SUM:
+=SUM(n1,n2,n3,……)	-=SUM(B3,B4,B5)
+N1,n2,n3 are different values or subjects
+
+2)	AVERAGE
+=AVERAGE(n1,n2,n3,……)	-=AVERAGE(B3,B4,B5)
+
+3)	CLASS AVERAGE
+=AVERAGE(r1,r2,r3,..,)	-=AVERAGE($F$3:$F$9)
+What is the use of Dollar Symbol ($) ?
+
+4)	STDEV : The Excel STDEV function returns the standard deviation for data that represents a sample
+=STDEV(n1,n2,n3,…,)	-=STDEV(B3,B4,B5)
+5)	RANK
+=RANK(value, data, type)	-=RANK (E3,$E$3:$E$9,0)
+‘0’ is for ascending order and other number for descending order.
+6)	IF/IFAND
+=IF(CONDITION, TRUE VALUE, FALSE VALUE)
+In place of condition we are using AND Function to check all the subjects’ marks should be grater then 50.
+-=IF(AND(B3>50,C3>50,D3>50),"PASS","FAIL")
+
+
+7)	COUNT IF – Check count with condition
+=COUNTIF((range, condition)	-COUNTIF((B3:D3,"<50")
+
+
+8)	MAX
+=MAX(sum1,sum2,sum3,..,..)	-MAX(E3:E9)
+ 
+TASK 7:
+Working with Sort, Filter and LOOKUP Features
+Sort:
+Sorting within Calc arranges the cells in a sheet using the sort criteria that you specify. Several criteria can be used and a sort applies each criteria consecutively. Sorts are useful when you are searching for a particular item and become even more useful after you have filtered data.
+Also, sorting is useful when you add new information to a spreadsheet. When a spreadsheet is long, it is usually easier to add new information at the bottom of the sheet, rather than adding rows in their correct place. After you have added information, you can then sort the records to update the spreadsheet.
+Sort dialog
+To sort cells in a spreadsheet using the Sort dialog:
+1)	Select the cells to be sorted.
+2)	Go to Data > Sort on the menu bar to open the Sort dialog. Make sure the Sort Criteria page is open.
+3)	Select the sort criteria from the drop-down lists. The selected lists are populated from the selected cells.
+4)	Select either ascending order (A-Z, 1-9) or descending order (Z-A, 9-1).
+5)	Click OK and the sort is carried out on your spreadsheet.
+ 
+
+Quick sort
+If the columns in your spreadsheet have a header with a text format, you can use a quick sort.
+1)	Select a cell or a cell range to be sorted.
+2)	Click the Sort Ascending or Sort Descending icons on the Standard toolbar.
